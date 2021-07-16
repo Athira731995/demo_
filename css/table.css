@@ -1,0 +1,22 @@
+table{
+width: 100%;
+border-collapse: collapse;
+border-color: blueviolet;
+}
+.header_row{
+    background-color: cadetblue;
+}
+.header_row:hover{
+    background-color: chartreuse;
+    
+}
+.row{
+    text-align: center;
+}
+.row:nth-child(even){
+    background-color: darkgoldenrod;
+  
+}
+.row:hover:nth-child(odd){
+    background-color: darkkhaki;
+}
